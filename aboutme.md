@@ -18,7 +18,7 @@ Sometimes, I'll be posting some stuff about it.
 
 ### my history
 
-I used to study Aerospace Engineering until I found myself a programmer. I always new
+I used to study Aerospace Engineering until I found myself a programmer. I always knew
 my place was somewhere inside technology, but it wasn't there, as though my
 time there was very important to get to know what I didn't want to do. Now, I'm in
 my path to become an autodidact computer scientist and I'm still
