@@ -21,7 +21,7 @@ my studies about a programming language. Now that I mentioned it, I'll be talkin
 about my Python studies in other posts, this is a more not-language-specific post
 (although some lectures use Python as teaching tool).
 
-So, few weeks ago me and my beloved husband created a GitHub repository with
+So, few weeks ago my beloved husband and I created a GitHub repository with
 our study planning of Computer Science. Our goal was to plan the equivalent of an
 entire Computer Science undergraduate program based on the
 [Computer Science and Engineering 2019 MIT Curriculum](https://www.eecs.mit.edu/docs/ug/freshman_roadmaps.pdf),
