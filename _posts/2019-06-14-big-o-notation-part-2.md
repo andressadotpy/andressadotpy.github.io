@@ -19,7 +19,7 @@ We will count the number of steps to find the element *e* inside that list.
 The following function **linear_search()** searches linearly for the element *e*
 inside the list *L*. To find *e* it has to check each element of the list once.  
 
-```
+```python
 def linear_search(L, e):
     """Searches in a list for the element e.
     Returns the number of steps during the search."""
@@ -32,7 +32,7 @@ def linear_search(L, e):
     return "Not found"
 ```
 
-```
+```python
 L = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  
 e = 10
 steps_linear_search = linear_search(L, e)
@@ -41,7 +41,7 @@ print("steps:", steps_linear_search)
 
 OUTPUT: ```steps: 10```
 
-```
+```python
 L1 = [i for i in range(100)]
 e1 = 99
 steps_linear_search2 = linear_search(L1, e1)
@@ -60,7 +60,7 @@ the linear search from the first example. The binary search only works with **so
 lists.  
 
 
-```
+```python
 def binary_search(L, e):
     """Searchs for an element e inside the list L.
     Returns number of steps taken to find e."""
@@ -79,7 +79,7 @@ def binary_search(L, e):
     return steps
 ```  
 
-```
+```python
 L = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  
 e = 10
 steps_log_search = binary_search(L, e)
@@ -88,7 +88,7 @@ print("steps:", steps_log_search)
 
 OUTPUT: ```steps: 3```
 
-```
+```python
 L1 = [i for i in range(100)]
 e1 = 99
 steps_log_search2 = binary_search(L1, e1)
@@ -142,7 +142,7 @@ half*.
 Usually nested loops are in **polynomial complexity**. A simple example, for us to
 check the number of steps is the following function called polynomial() with O(n²).
 
-```
+```python
 def polynomial(n):
     steps = 0
     for i in range(n):
@@ -151,7 +151,7 @@ def polynomial(n):
     return steps
 ```
 
-```
+```python
 steps = polynomial(10)
 print("steps:", steps)
 ```
@@ -162,7 +162,7 @@ OUTPUT: ```steps: 100```
 The complexity of the inner loop is O(len(L)). The complexity of the outer loop is also O(len(L)), so the complexity of the entire **selection_sort() function is O(len(L)²)**. It is *quadratic in the length of L*.
 
 
-```
+```python
 def selection_sort(L):
     """Sorts a list L in-place and in ascending order.
     Returns number of steps to do it."""
@@ -176,7 +176,7 @@ def selection_sort(L):
     return L
 ```
 
-```
+```python
 L = [9, 8, 8, 7, 6, 5, 4, 3, 2, 9, 0, 1]
 L2 = selection_sort(L)
 print("L2 =", L2)
@@ -206,7 +206,7 @@ the number of levels of recursion is **O(log(len(L)))**. Therefore, the time com
 **O(n*log(n))**, where n is len(L).
 
 
-```
+```python
 def merge(left, right, compare):
     result = []
     i, j, = 0, 0
@@ -236,7 +236,7 @@ def merge_sort(L, compare = lambda x, y: x < y):
         return merge(left, right, compare)
 ```
 
-```
+```python
 L = [9, 8, 8, 7, 6, 5, 4, 3, 2, 9, 0, 1]
 sorted_list = merge_sort(L)
 print("L =", L)

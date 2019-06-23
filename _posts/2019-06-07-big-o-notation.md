@@ -18,7 +18,7 @@ I'll be talking about each one of the important complexity classes.
 Let's suppose we have to search for an element n in a list L. We can analyze three
 scenarios of finding n in L:
 
-```  
+``` python
 def search(n, L):
     for num in L:
         if num is n:
@@ -62,7 +62,7 @@ growth rate will matter to the analysis.
 
 For the following function  
 
-```  
+```python
 def f(n):
 
     # Loop that takes constant time
