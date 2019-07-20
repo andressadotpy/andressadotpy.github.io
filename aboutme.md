@@ -12,9 +12,6 @@ to learn, that's why I created this blog. I love Open Source and that's my
 way to start contributing more to the developer community. Also, although my
 native language is Portuguese, I'll be posting more in English, but feel free to contact me in Portuguese if you want!  
 
-Currently I teach kids how to program while teaching English. I love to teach and talk.
-Sometimes, I'll be posting some stuff about it.
-
 
 ### my history
 
