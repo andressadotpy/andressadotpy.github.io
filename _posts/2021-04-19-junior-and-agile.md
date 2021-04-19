@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Importância da cultura e de um time ágil para minha experiência como Desenvolvedora Júnior
+title: Minha primeira experiência com Agile como Desenvolvedora Júnior
 tags: [Agile, Ágil, Scrum]
 ---
 
