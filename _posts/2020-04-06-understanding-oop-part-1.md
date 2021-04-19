@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Thinking OOP - Part 1
+title: Thinking OOP
 tags: [OOP, OOD, Object-Oriented Programming, Object-Oriented Design, Python]
 ---
 
 
 
-# Thinking OOP - Part 1
+# Thinking OOP
 
   
 
-It's been a while since my last post and just now, as things in the whole world are very weird, I'm back. So, **#StayAtHome** and keep up with me! Lately, I'm deepening my knowledge in Object-Oriented programming and reviewing some concepts about this paradigm. So, I decided to make a series of posts about OOP and *how to think* in an Object-Oriented manner. In this first part I will be talking about some fundamental concepts that will help us design better Object-Oriented Software, such as *Abstraction*, *Encapsulation* and *Information Hiding*. Also, I explain **what is an object** and why choose the OO approach.
+It's been a while since my last post and just now, as things in the whole world are very weird, I'm back. So, **#StayAtHome** and keep up with me! Lately, I'm deepening my knowledge in Object-Oriented programming and reviewing some concepts about this paradigm. So, I decided to make a post about OOP and *how to think* in an Object-Oriented manner. I will be talking about some fundamental concepts that will help us design better Object-Oriented Software, such as *Abstraction*, *Encapsulation* and *Information Hiding*. Also, I explain **what is an object** and why choose the OO approach.
 
 I'm using as bibliography [Python3 - Object-Oriented Programming](https://www.amazon.com/Python-3-Object-Oriented-Programming/dp/1849511268) and [Designing Object-Oriented Software](https://www.amazon.com.br/Designing-Object-Oriented-Software-Rebecca-Wirfs-Brock/dp/0136298257).  Both are very good books that I recommend reading. If you are studying Python, *Python3 - Object-Oriented Programming* is an amazing book to read after having some basic knowledge about the language. I read it twice already and always use it when I need to remember something.    
 
@@ -52,6 +52,4 @@ As told before, the information is kept inside an object as a *capsule* and it c
 
   
 
-This post was very theoretical and full of concepts but I do believe that understanding all of this is essential to create well written Classes. Here we talked a lot about how is the process of thinking an Object-Oriented Software. We didn't write any code (yet), but I hope that when you were reading, you were thinking about how to improve your applications and apply this concepts better when writing a Software.  
-
-In the next posts I will be talking about **relationship** between objects (Inheritance, Composition, Association and Aggregation) with examples in Python.
+This post was very theoretical and full of concepts but I do believe that understanding all of this is essential to create well written Classes. Here we talked a lot about how is the process of thinking an Object-Oriented Software. We didn't write any code, but I hope that when you were reading, you were thinking about how to improve your applications and apply this concepts better when writing a Software.  
