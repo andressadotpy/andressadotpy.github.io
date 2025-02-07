@@ -68,7 +68,7 @@ With the dependencies installed, now it's possible to run **pytest-playwright** 
 
 First make sure to `pip install pytest-playwright`.
 
-Add the simple following test in the tests folder with the nomenclature pytest will be able to find the test, e.g `tests/test_playwright_page.py`.
+Add the simple following test in the tests folder with a nomenclature that pytest will be able to find it, e.g `tests/test_playwright_page.py`.
 
 ```python
 import re
@@ -98,4 +98,4 @@ tests/test_playwright_page.py .                             [100%]
 
 ## Conclusion
 
-I hope this helped you with you Playwright setup in Fedora. If it didn't, there are many discussions happening in the [GitHub issues page for Playwright](https://github.com/microsoft/playwright/issues) about the missing support for Linux OS and the community is posting a lot of different solutions in the comments. I recommend you to take a look at the issues to check for different solutions.
+I hope this helped you with your Playwright setup in Fedora. If it didn't, there are many discussions happening in the [GitHub issues page for Playwright](https://github.com/microsoft/playwright/issues) about the missing support for Linux OS and the community is posting a lot of different solutions in the comments. I recommend you to take a look at the issues to check for different solutions.
