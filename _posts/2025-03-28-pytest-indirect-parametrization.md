@@ -5,7 +5,7 @@ subtitle: Something cool I learned at work today
 tags: [Python, Pytest, Test]
 ---
 
-Just when I thought parametrization with Pytest couldn't get any cooler: :boom:  I learned about using parametrization to make pytest fixtures more dynamic and flexible.
+Just when I thought parametrization with Pytest couldn't get any cooler: 💥, I learned about using parametrization to make pytest fixtures more dynamic and flexible.
 
 I am writing a pytest plugin to use in a new test automation. In our team, we usually ensure that each test has its own user associated with it because re-using users might introduce too much instability. So I started to experiment with fixtures to understand how we could setup and login as different users in each test.
 
